@@ -1,0 +1,93 @@
+h1
+{
+    color:/*rgb(201, 152, 201)*/ rgb(195, 195, 235);
+    font-size: 30px;
+    text-align: center;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(61, 162, 128);
+    padding: 10px;
+
+}
+
+p
+{
+    color:rgb(222, 222, 236);
+    font-size: 20px;
+   background-color: rgb(140, 141, 192); 
+   border:none;
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   size:fit-content
+   
+}
+
+body
+{
+    background-color:rgb(80, 50, 100);
+   background-image: url('auror.jpg');
+   background-position: 100% 105%; 
+   background-repeat: no-repeat;
+}
+
+
+
+.lyrics 
+{
+    top: 0;          /* Pushes the element to the top of the page */
+    width: 110%;     /* Ensures it spans the full width of the page */
+    text-align: center; /* Centers the text inside the element */
+    z-index: 10;     /* Ensures it stays on top of other elements if necessary */
+    position: left;
+    
+}
+
+.calculator
+{
+    background-color:rgb(152, 184, 209); /*rgb(168, 205, 234)*/
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 0 10px rgb(109, 188, 158) /*1.16.30 in yt video*/;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:350px;
+    height: 400px;    
+}
+
+#display
+{
+    justify-content: center;
+    height: 90px;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 8px;
+    color:rgb(61, 162, 128);
+}
+
+.buttons
+{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:8px;
+    padding: 10px;
+}
+
+.btn
+{
+    padding:19px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(53, 158, 123);
+    color:whitesmoke;
+    cursor:pointer;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: rgb(137, 214, 151); /*can be changed*/
+}

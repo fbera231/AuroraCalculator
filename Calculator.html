@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"AuroraCalculatorbyFBera"</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+    <body>
+
+        <div class="lyrics"> 
+            <h1>Fatıma Bera Çolak</h1>
+            <p>And I was running far away<br>
+            Would I run off the world someday?</p>
+        </div>
+        
+        
+            <div class="calculator">
+            <input type="text" id="display" disabled>
+            
+            <div class="buttons">
+
+                <button class="btn" onClick="clearDisplay()">C</button>
+                <button class="btn" onClick="appendToDisplay('*')">*</button>
+                <button class="btn" onClick="appendToDisplay('/')">/</button>
+                <button class="btn" onClick="calculatePercentage()">%</button>
+
+                <button class="btn" onClick="appendToDisplay('-')">-</button>
+                <button class="btn" onClick="appendToDisplay('7')">7</button>
+                <button class="btn" onClick="appendToDisplay('8')">8</button>
+                <button class="btn" onClick="appendToDisplay('9')">9</button>
+                
+                <button class="btn" onClick="appendToDisplay('+')">+</button>
+                <button class="btn" onClick="appendToDisplay('4')">4</button>
+                <button class="btn" onClick="appendToDisplay('5')">5</button>
+                <button class="btn" onClick="appendToDisplay('6')">6</button>
+               
+                <button class="btn" onClick="appendToDisplay('^')">^</button>   
+                <button class="btn" onClick="appendToDisplay('1')">1</button>
+                <button class="btn" onClick="appendToDisplay('2')">2</button>
+                <button class="btn" onClick="appendToDisplay('3')">3</button>
+
+                <button class="btn" onClick="appendToDisplay('√')">√</button>
+                <button class="btn" onClick="appendToDisplay('.')">.</button>
+                <button class="btn" onClick="appendToDisplay('0')">0</button>
+                <button class="btn" onClick="calculateResult()">=</button>
+
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.0.0/math.min.js"></script>
+        <script src="app.js"></script> 
+    </body>
+
+</html>
